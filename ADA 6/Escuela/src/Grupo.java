@@ -2,14 +2,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Grupo {
-    private Profesor profesor;
-    private List<Alumno> alumnos;
+    private Profesor profesor; //aquí se aplica composición
+    private List<Alumno> alumnos; //aquí se aplica composición
 
-    public Grupo() {
+    public Grupo() { //constructor vacío que inicializa la lista de alumnos
         this.alumnos = new ArrayList<>();
     }
 
-    public Grupo(Profesor profesor, List<Alumno> alumnos) {
+    public Grupo(Profesor profesor, List<Alumno> alumnos) { //combinación de instancias mediante un constructor
         this.profesor = profesor;
         this.alumnos = alumnos;
     }
