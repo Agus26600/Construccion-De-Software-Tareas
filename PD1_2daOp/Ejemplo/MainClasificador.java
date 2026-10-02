@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class MainClasificador {
     public static void main(String [] args){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese el turno (Manana o Tarde), por favor ingresar la primera letra en mayuscula:");
