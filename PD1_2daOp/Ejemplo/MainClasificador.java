@@ -12,9 +12,9 @@ public class MainClasificador {
         
         ClasificadorDia clasificador = new ClasificadorDia(turno, numeroDia);
         System.out.println(clasificador);
-        String tipoDia = ClasificadorDia.clasificarDiaSemana(clasificador.getNumeroDia());
+        String tipoDia = clasificador.clasificarDiaSemana(clasificador.getNumeroDia());
         System.out.println(tipoDia);
-        boolean esManana = ClasificadorDia.esTurnoManana(clasificador.getTurno());
+        boolean esManana = clasificador.esTurnoManana(clasificador.getTurno());
         System.out.println(esManana);
 
         scanner.close();

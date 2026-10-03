@@ -38,7 +38,7 @@ public class ClasificadorDia {
     }
 
 
-    public static String clasificarDiaSemana(int numeroDia){
+    public String clasificarDiaSemana(int numeroDia){
 
         //clausula de guarda
         if (numeroDia != LUNES && numeroDia != MARTES && numeroDia != MIERCOLES && numeroDia != JUEVES && numeroDia != VIERNES && numeroDia != SABADO && numeroDia != DOMINGO){
@@ -53,7 +53,7 @@ public class ClasificadorDia {
 
     }
 
-    public static boolean esTurnoManana(String turno){
+    public boolean esTurnoManana(String turno){
         if (turno.equals("Manana")){
             return true;
         } else {
