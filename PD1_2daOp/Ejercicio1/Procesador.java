@@ -17,6 +17,7 @@ public class Procesador {
         this.listaDatos = listaDatos;
     }
 
+    //ya no es static porque se debe de instanciar un objeto para usar la funcion
     public void procesar(List<Integer> listaDatos) {
         int suma = 0;
         for (int i = 0; i < listaDatos.size(); i++) {
