@@ -8,7 +8,7 @@ public class MainClasificador {
         System.out.println("Ingrese el numero del dia (1-7):");
         int numeroDia = scanner.nextInt();
 
-        
+    
         
         ClasificadorDia clasificador = new ClasificadorDia(turno, numeroDia);
         System.out.println(clasificador);
