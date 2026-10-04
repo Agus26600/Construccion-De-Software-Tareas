@@ -9,7 +9,9 @@ public class MainGestorClientes {
         listaClientes.add("Juan");
         listaClientes.add("Pedro");
         GestorClientes gestor = new GestorClientes(listaClientes);
-        gestor.eliminarInactivos(listaClientes, List.of("Pedro"));
+        List<String> listaInactivos = new ArrayList<>();
+        listaInactivos.add("Pedro");
+        gestor.eliminarInactivos(listaClientes, listaInactivos);
         System.out.println("Clientes activos: " + gestor.getClientes());
 
 
