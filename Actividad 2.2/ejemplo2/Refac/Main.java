@@ -5,15 +5,15 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("ingrese el precio del producto: ");
+        System.out.print("Ingrese el precio del producto: ");
         double precio = scanner.nextDouble();
 
-        System.out.print("ingrese la cantidad: ");
+        System.out.print("Ingrese la cantidad: ");
         int cantidad = scanner.nextInt();
 
         double total = Compra.calcularTotal(precio, cantidad);
 
-        System.out.println("total de la compra: $" + total);
+        System.out.println("Total de la compra: $" + total);
 
         scanner.close();
     }
