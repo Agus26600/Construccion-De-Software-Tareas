@@ -5,12 +5,12 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Ingresa el monto de la compra: ");
+        System.out.print("ingrese el monto de la compra: ");
         double monto = scanner.nextDouble();
 
         boolean resultado = Descuento.tieneDescuento(monto);
 
-        System.out.println("Tiene descuento el pedido? " + resultado);
+        System.out.println("tiene descuento el pedido? " + resultado);
 
         scanner.close();
     }

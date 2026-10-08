@@ -13,7 +13,7 @@ public class Main {
 
         double total = Compra.calcularTotal(precio, cantidad);
 
-        System.out.println("Total de la compra: $" + total);
+        System.out.println("total de la compra: $" + total);
 
         scanner.close();
     }
