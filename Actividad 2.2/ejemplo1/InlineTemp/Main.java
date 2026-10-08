@@ -10,7 +10,7 @@ public class Main {
 
         boolean resultado = Descuento.tieneDescuento(monto);
 
-        System.out.println("¿Tiene descuento el pedido? " + resultado);
+        System.out.println("Tiene descuento el pedido? " + resultado);
 
         scanner.close();
     }
