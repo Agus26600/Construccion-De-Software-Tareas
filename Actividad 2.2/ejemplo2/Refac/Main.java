@@ -5,7 +5,7 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Ingrese el precio del producto: ");
+        System.out.print("ingrese el precio del producto: ");
         double precio = scanner.nextDouble();
 
         System.out.print("ingrese la cantidad: ");

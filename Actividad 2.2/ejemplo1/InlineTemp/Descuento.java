@@ -10,6 +10,6 @@ public class Descuento {
 
     public static void calcularYMostrarImpuesto(double montoCompra) {
         double impuesto = montoCompra * 0.16;
-        System.out.println("El impuesto aniadido a la compra es: $" + impuesto);
+        System.out.println("el impuesto aniadido a la compra es: $" + impuesto);
     }
 }
